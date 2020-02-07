@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.2.1.RELEASE</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+
+    <modelVersion>4.0.0</modelVersion>
+    
+    <groupId>com.example</groupId>
+    <artifactId>test</artifactId>
+    <packaging>pom</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>test</name>
+    <description>Demo project for Spring Boot</description>
+
+    <modules>
+        <module>configuration-adoc-generator</module>
+        <module>spring-boot-akka</module>
+    </modules>
+
+    <repositories>
+        <repository>
+            <id>icon-thirdparty</id>
+            <name>IPF 3rd Party jars</name>
+            <url>https://nexus.ipf.iconsolutions.com/repository/icon-group/</url>
+        </repository>
+        <repository>
+            <id>lightbend-commercial</id>
+            <name>Lightbend commercial addons</name>
+            <url>https://nexus.ipf.iconsolutions.com/repository/icon-group/</url>
+        </repository>
+        <repository>
+            <id>icon-releases</id>
+            <name>icon-releases</name>
+            <url>https://nexus.ipf.iconsolutions.com/repository/icon-releases/</url>
+        </repository>
+    </repositories>
+
+</project>
